@@ -31,3 +31,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-pozition BOTTOM
 #To reset the dock, use this command
 #dconf reset -f /org/gnome/shell/extensions/dash-to-dock/
+
+#Open Extensions.gnome.org
+/usr/bin/firefox --new-window http://extensions.gnome.org/
