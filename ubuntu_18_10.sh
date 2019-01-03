@@ -11,10 +11,10 @@ echo "Creating icons and themes forlder under Home directory"
 mkdir ~/.icons
 mkdir ~/.themes
 #Extract files
-tar -xvf DARK.for.Dash.to.DOCK.tar.xz
+tar -xvf OSX.for.Dash.to.DOCK.tar.xz
 tar -xvf McOS-Space-Grey-3.30.tar.xz
 tar -xvf MacOSX.tar.xz
-cp -R 3.30/Majove_NIGHT ~/.themes
+cp -R 3.30/Majove ~/.themes
 mv MacOSX ~/.icons
 mv McOS-Space-Grey-3.30 ~/.themes
 sudo cp macOS-Mojave-Day-wallpaper.jpg /usr/share/backgrounds/
