@@ -17,5 +17,7 @@ tar -xvf MacOSX.tar.xz
 cp -R 3.30/Majove_NIGHT ~/.themes
 mv MacOSX ~/.icons
 mv McOS-Space-Grey-3.30 ~/.themes
+sudo cp macOS-Mojave-Day-wallpaper.jpg /usr/share/backgrounds/
 gsettings set org.gnome.desktop.interface gtk-theme "McOS-Space-Grey-3.30"
 gsettings set org.gnome.desktop.interface icon-theme 'MacOSX'
+gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/macOS-Mojave-Day-wallpaper.jpg
