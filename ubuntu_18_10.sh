@@ -33,4 +33,5 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 #dconf reset -f /org/gnome/shell/extensions/dash-to-dock/
 
 #Open Extensions.gnome.org
-/usr/bin/firefox --new-window http://extensions.gnome.org/
+/usr/bin/firefox http://extensions.gnome.org/
+/usr/bin/firefox https://extensions.gnome.org/extension/358/activities-configurator/
