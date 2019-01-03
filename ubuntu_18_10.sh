@@ -13,8 +13,8 @@ mkdir ~/.themes
 #Extract files
 tar -xvf DARK.for.Dash.to.DOCK.tar.xz
 tar -xvf McOS-Space-Grey-3.30.tar.xz
-tar -xvf MacOSX-icon-theme.tar.xz
-cp -R DARK.for.Dash.to.DOCK/3.30/Majove_NIGHT ~/.themes
+tar -xvf MacOSX.tar.xz
+cp -R 3.30/Majove_NIGHT ~/.themes
 mv MacOSX ~/.icons
 mv McOS-Space-Grey-3.30 ~/.themes
 gsettings set org.gnome.desktop.interface gtk-theme "McOS-Space-Grey-3.30"
