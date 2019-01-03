@@ -21,3 +21,13 @@ sudo cp macOS-Mojave-Day-wallpaper.jpg /usr/share/backgrounds/
 gsettings set org.gnome.desktop.interface gtk-theme "McOS-Space-Grey-3.30"
 gsettings set org.gnome.desktop.interface icon-theme 'MacOSX'
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/macOS-Mojave-Day-wallpaper.jpg
+#Change Dock Settings
+gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+gsettings set org.gnome.shell.extensions.dash-to-dock running-indicator-style DEFAULT
+gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-customize-running-dots false
+gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink false
+gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode DEFAULT
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-pozition BOTTOM
+#To reset the dock, use this command
+#dconf reset -f /org/gnome/shell/extensions/dash-to-dock/
