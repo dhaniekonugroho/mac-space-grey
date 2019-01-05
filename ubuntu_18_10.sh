@@ -29,6 +29,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink false
 gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode DEFAULT
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+gsettings set org.gnome.shell enable-hot-corners "true"
 #To reset the dock, use this command
 #dconf reset -f /org/gnome/shell/extensions/dash-to-dock/
 
