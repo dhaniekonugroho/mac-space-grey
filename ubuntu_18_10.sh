@@ -34,5 +34,6 @@ gsettings set org.gnome.shell enable-hot-corners "true"
 #dconf reset -f /org/gnome/shell/extensions/dash-to-dock/
 
 #Open Extensions.gnome.org
-/usr/bin/firefox http://extensions.gnome.org/
+/usr/bin/firefox https://extensions.gnome.org/
+/usr/bin/firefox https://extensions.gnome.org/extension/19/user-themes/
 /usr/bin/firefox https://extensions.gnome.org/extension/358/activities-configurator/
