@@ -5,7 +5,7 @@ echo "......"
 sudo apt update
 echo "Now installing Gnome Tweaks"
 echo "....."
-sudo apt install gnome-tweaks chrome-gnome-shell
+sudo apt -y install gnome-tweaks chrome-gnome-shell
 #create themes and icons directory
 echo "Creating icons and themes forlder under Home directory"
 mkdir ~/.icons
